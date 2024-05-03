@@ -1,0 +1,28 @@
+1.What is javascript?
+
+->Interpreted language
+    it goes top to bottom, left to write 
+   
+    it is a scripting language.
+    another example of scripting language is python.
+
+-> Object oriented language
+   #modularity -> Breaking whole code into manageable pieces.
+               -> which increases reusablity of code.
+
+-> Dyanamic 
+       in languages which are not dynamic we have to manually mention the data type
+       but in languages like javascript we can dirrectly assign data
+
+       var a = "arth"
+       var a = 10
+
+-> Javascript can easily be runned into browser.
+    ->javascript is a client side programming language.
+
+arthgupta861@gmail.com
+arth123 ->login
+
+data+ clinet ->backend -> java run -> java validates correctness of data ->returns message to client
+
+client side resolution and validation

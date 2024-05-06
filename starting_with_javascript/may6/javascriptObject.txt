@@ -1,0 +1,113 @@
+/* suppose i have to store data of 60 students
+
+some have address and some don't
+
+columns names
+s.no | name  | address
+1    |ramesh | delhi
+2    | arth  |
+
+storing data in tabular form results in higher memory consumption for inconsistent data.
+
+Json data type
+
+json -> javascript object notation.
+
+data_ =[ {
+ "s.no" : 1,
+ "name" " "ramesh",
+ "address": "delhi"
+},
+{
+ "s.no" : 2,
+ "name" : "arth"
+}]
+
+a single unit object looks like this
+ d1 = {
+ "s.no" : 1,
+ "name" : "ramesh",
+ "address": delhi
+} */
+/* 
+it is a key-value pair
+it is a type of dictionary */
+/* ETL -> */
+/* 
+var d1 = {
+ "s.no" : 1,
+ "name" : "ramesh",
+ "address": "delhi"
+} 
+
+console.log(d1.name); */
+
+//<objname>['<new fiel name>'] = <new field value>
+/* d1['class_'] = "2nd"
+d1.age_ = 23
+
+console.log(d1);
+d1.age_ = 24
+console.log(d1); */
+
+//CRUD -> create , read / access , update ,delete
+/* 
+delete d1.age_
+console.log("after deletion of a key value pair")
+console.log(d1); */
+
+//array of objects
+/* data_ =[ {
+ "s.no" : 1,
+ "name" : "ramesh",
+ "address": "delhi"
+},
+{
+ "s.no" : 2,
+ "name" : "arth"
+}]
+
+console.log(data_[0])
+console.log(data_[1])
+console.log(data_)
+
+console.log(data_[1].name)
+
+console.log(data_[1]['name']) */
+
+/* var d1 = {
+ "s.no" : 1,
+ "name" : "ramesh",
+ "address": "delhi"
+} 
+
+var key_ = "name"
+console.log(d1[key_]); */ //square brackets are used when even key are have to be dynamically types or provided
+
+
+
+var name_ = prompt("what is your name buddy?");
+
+console.log("users name is ",name_)
+
+1. write a programe to manupulate a field in a object by taking input from user.
+ var d1 = {
+ "s.no" : 1,
+ "name" : "ramesh",
+ "address": "delhi"
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
